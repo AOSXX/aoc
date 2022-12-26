@@ -4,7 +4,7 @@ import numpy as np
 
 def _read_file(filename):
     """
-    Read lines from a text file called <filename> in the current directory.
+    Read lines a text file called <filename> in the current directory.
     """
     with open(filename, "r") as fo:
         lines = [line.strip() for line in fo.readlines()]
